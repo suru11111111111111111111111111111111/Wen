@@ -1,4 +1,3 @@
-#SC OWNER_______________RAHUL DON
 from ast import Pass
 from os import name, path
 import os,base64,zlib,pip,urllib
