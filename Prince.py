@@ -993,7 +993,7 @@ def meyexudi():
       print(" \x1b[0m║══[KEY]  : "+id)
       uname =input('\033[1;97m[\033[1;92m•\033[1;97m]\033[1;92m WHAT IS YOUR NAME \033[1;91m: \33[1;32m')
       input(' \033[1;30m╚══[•] IF U WANT APPROVAL FOR FREE THEN PRESS ENTER ')
-      tks = ('Hello%20Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+id);os.system('am start https://wa.me/+9106391471?text='+tks),approval()       
+      tks = ('Hello%20Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+id);os.system('am start https://wa.me/+919106391471?text='+tks),approval()       
   except:
     sys.exit()
 print(logo)
