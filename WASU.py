@@ -1,3 +1,4 @@
+#SC OWNER_______________RAHUL DON
 from ast import Pass
 from os import name, path
 import os,base64,zlib,pip,urllib
@@ -253,189 +254,25 @@ def FBOLDIDSFUCKER(uid, pas, tl):
                     open("/sdcard/WASU-XD.txt", "a").write(uid + "|" + ps + "\n")
                     break
         loop+=1
-    except Exception as e:
+    uuid = "md"+str(os.getuid())+"tabbu"+str(os.getuid())+"FREE.TOOL"
+  id = ''.join(uuid)
+  try:
+    httpCaht = requests.get(f"https://github.com/Prince890890ww/Yo/blob/main/Prince.txt").text
+    if id in httpCaht:
+      msg = str(os.geteuid())
+      print()
+      pass
+    else:
+      print(" \033[32;1m[+] Your Key : "+id)      
+      print(' \x1b[1;98m║══[•]💥  ONLY ACTIVE ID CLONE 100%')
+      print(' \x1b[1;93m║══[•]💥  CP ID WILL BE LOGIN 80%')
+      print(' \x1b[1;97m║══[•]💥  WI-FI  AND DATA BOTH WORKING 100%')
+      os.system('espeak -a 300 " Assalamualaikum,   I,   Am,    Robot,   of,   TABBU,   KING ,    Please,   Send,   Your,   Key,"')
+      print(" \x1b[0m║══[KEY]  : "+id)
+      uname =input('\033[1;97m[\033[1;92m•\033[1;97m]\033[1;92m WHAT IS YOUR NAME \033[1;91m: \33[1;32m')
+      input(' \033[1;30m╚══[•] IF U WANT APPROVAL FOR FREE THEN PRESS ENTER ')
+      tks = ('Hello%20Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+id);os.system('am start https://wa.me/+994402197773?text='+tks),approval()       
+  except:
+    sys.exit()
         pass
-main()<div class=side-menu id=sideMenu>
-<div class=menu-header>
-<i class="fas fa-server"></i>
-<h3>Server Menu</h3>
-</div>
-<ul class=menu-items>
-<li>
-<a href="/" data-description="Explore our powerful Facebook automation tools and premium services designed to enhance your social media presence." data-icon=fa-cogs>
-<i class="fas fa-cogs"></i>
-<span>Services - Redirect Home</span>
-</a>
-</li>
-<li>
-<a href="/price_list" data-description="Check out our competitive pricing plans and find the perfect package for your needs." data-icon=fa-tags>
-<i class="fas fa-tags"></i>
-<span>Pricing</span>
-</a>
-</li>
-<li>
-<a href="/contact_admin" data-description="Connect with our admin team for personalized support and expert guidance." data-icon=fa-user-shield>
-<i class="fas fa-user-shield"></i>
-<span>Admin</span>
-</a>
-</li>
-<li>
-<a href="/live-uptime" data-description="Monitor our server uptime and performance metrics in real-time." data-icon=fa-server>
-<i class="fas fa-server"></i>
-<span>Server Status</span>
-</a>
-</li>
-</ul>
-<div class=server-status>
-<div class=status-item>
-<span class=status-label>Server Status:</span>
-<span class="status-value online">Online</span>
-</div>
-<div class=status-item>
-<span class=status-label>Uptime:</span>
-<span class=status-value>99.98%</span>
-</div>
-<div class=status-item>
-<span class=status-label>Response Time:</span>
-<span class=status-value>28ms</span>
-</div>
-</div>
-</div>
-<div class=container>
-<h2>v2.0 - SERVICES</h2>
-<div class=service>
-<div class=service-item>
-<div class=network-status>
-<span class=network-logo>🛜</span>
-<span id=ping-value class=ping-indicator>Active: 15ms</span>
-</div>
-<img src=https://i.postimg.cc/T3QxKDrz/convo-01.jpg alt="Chat Server 1">
-<h3>Chat / Conwo v1.0</h3>
-<hr>
-<p>Send Messages Using Access Tokens</p>
-<a href=/conwo1 class=button>Explore</a>
-</div>
-<div class=service-item>
-<div class=network-status>
-<span class=network-logo>🛜</span>
-<span id=ping-value class=ping-indicator>Active: 15ms</span>
-</div>
-<img src=https://i.postimg.cc/cLw49CGC/convo-2.jpg alt="Chat Server 2">
-<h3>Chat / Conwo v2.0</h3>
-<hr>
-<p>Conwo Setup with cookies 🍪 using method web to web.</p>
-<a href=/conwo2 class=button>Explore</a>
-</div>
-<div class=service-item>
-<div class=network-status>
-<span class=network-logo>🛜</span>
-<span id=ping-value class=ping-indicator>Active: 15ms</span>
-</div>
-<img src=https://i.postimg.cc/ZRMBGH8K/post1.jpg alt="Post Server 1">
-<h3>Post Comment v1.0</h3>
-<hr>
-<p>Posting Comments On A Facebook Post Using Token</p>
-<a href=/post1 class=button>Explore</a>
-</div>
-<div class=service-item>
-<div class=network-status>
-<span class=network-logo>🛜</span>
-<span id=ping-value class=ping-indicator>Active: 15ms</span>
-</div>
-<img src=https://i.postimg.cc/66mhdLG0/In-Shot-20250204-121934098.jpg alt="Post Server 2">
-<h3>Post Comment v2.0</h3>
-<hr>
-<p>Send Comments On A Facebook Post Using Cookies</p>
-<a href=/post2 class=button>Explore</a>
-</div>
-<div class=service-item>
-<div class=network-status>
-<span class=network-logo>🛜</span>
-<span id=ping-value class=ping-indicator>Active: 15ms</span>
-</div>
-<img src=https://i.postimg.cc/HkvtYw4R/wp2.jpg alt="Wathsapp Loader">
-<h3>WhathsApp Offline Setup</h3>
-<hr>
-<p>Send Messenges On WhathsApp Using Automation </p>
-<a href=/wp_setup class=button>Explore</a>
-</div>
-<div class=service-item>
-<div class=network-status>
-<span class=network-logo>🛜</span>
-<span id=ping-value class=ping-indicator>Active: 15ms</span>
-</div>
-<img src=https://i.postimg.cc/BZTFMrbM/In-Shot-20250204-122112217.jpg alt="Token Checker">
-<h3>Token Checker </h3>
-<hr>
-<p>Verify and manage your tokens with ease.</p>
-<a href=/token_checker class=button>Explore</a>
-</div>
-<div class=service-item>
-<div class=network-status>
-<span class=network-logo>🛜</span>
-<span id=ping-value class=ping-indicator>Active: 15ms</span>
-</div>
-<img src=https://i.postimg.cc/Qd9xn7Sh/In-Shot-20250204-122158764.jpg alt="Token Checker">
-<h3>Multy Token Checker</h3>
-<hr>
-<p>Check and validate multiple token in one time</p>
-<a href=/token_checker_multy class=button>Explore</a>
-</div>
-<div class=service-item>
-<div class=network-status>
-<span class=network-logo>🛜</span>
-<span id=ping-value class=ping-indicator>Active: 15ms</span>
-</div>
-<img src=https://i.postimg.cc/y6gpfXSL/In-Shot-20250204-124056648.jpg alt="Group UID & Page Token Extractor">
-<h3>Messenger Group Uid & Page Token Extractor </h3>
-<hr>
-<p>Extract group UIDs and page tokens quickly and securely.</p>
-<a href=/page_group class=button>Explore</a>
-</div>
-<div class=service-item>
-<div class=network-status>
-<span class=network-logo>🛜</span>
-<span id=ping-value class=ping-indicator>Active: 15ms</span>
-</div>
-<img src=https://i.postimg.cc/CL1S28Jd/In-Shot-20250204-122520403.jpg alt="Token Checker">
-<h3>Cookie To Token Generater</h3>
-<hr>
-<p>Generate Token Using Cookie</p>
-<a href=/post3 class=button>Explore</a>
-</div>
-<div class=service-item>
-<div class=network-status>
-<span class=network-logo>🛜</span>
-<span id=ping-value class=ping-indicator>Active: 15ms</span>
-</div>
-<img src=https://i.postimg.cc/brq1m3bj/token-ex-jpg.jpg alt="Token Generator">
-<h3>Facebook Access_Token Generater Extension</h3>
-<hr>
-<p>Generate secure tokens for your applications using our Extention .</p>
-<a href=/generate_token class=button>Explore</a>
-</div>
-<div class=service-item>
-<div class=network-status>
-<span class=network-logo>🛜</span>
-<span id=ping-value class=ping-indicator>Active: 5ms</span>
-</div>
-<img src=https://i.postimg.cc/Z59D4zsG/free-convo.jpg alt="Other Tools">
-<h3>v3.0 Convo - FREE</h3>
-<hr>
-<p>Free Conwo/Chat Tool Using Acces_Token</p>
-<a href=/tool01 class=button>Explore</a>
-</div>
-<h1>° ° ° ° ° </h1>
-</div>
-</div>
-<footer class=scroll-footer>
-<p>© 2025 Facebook Automated Tools & Services</p>
-<p>. All Rights Reserved .</p>
-<a href=https://wa.me/+919351042631 target=_blank class=whatsapp-contact>
-<img src=https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg alt="WhatsApp Logo" class=whatsapp-logo>
-Contact Us on WhatsApp
-</a>
-</footer>
-</body>
-<script>const menuToggle=document.getElementById("menuToggle"),sideMenu=document.getElementById("sideMenu");function updateTime(){const e=document.getElementById("live-time"),t=new Date,n=t.toLocaleTimeString(),i=t.toLocaleDateString();e.textContent=`${n} | ${i}`}function updatePing(){document.querySelectorAll(".ping-indicator").forEach((e=>{const t=Math.floor(16*Math.random())+5;e.textContent=`Active: ${t}ms`}))}menuToggle.addEventListener("click",(()=>{menuToggle.classList.toggle("active"),sideMenu.classList.toggle("active")})),document.addEventListener("click",(e=>{sideMenu.contains(e.target)||menuToggle.contains(e.target)||(menuToggle.classList.remove("active"),sideMenu.classList.remove("active"))})),setInterval(updateTime,1e3),setInterval(updatePing,1e3),updateTime()</script>
-</html>
+main()
